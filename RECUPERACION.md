@@ -7,9 +7,9 @@ borrase el contenido de la carpeta)
 -Que comandos usaste para recuperar el archivo
 
 He usado el comando "git reftlog" para volver a un commit previo al error y luego los comandos
-"git checkout <hash del commit>" para cambiar a dicho commit, he realizado los cambios y
-ejecutado los comandos "git branch <nombre de nueva rama>" "git checkout main" y
-<git merge <nombre de nueva rama>" para crear la rama en la que he realizado los cambios,
+"git checkout hash del commit" para cambiar a dicho commit, he realizado los cambios y
+ejecutado los comandos "git branch nombre de nueva rama" "git checkout main" y
+<git merge nombre de nueva rama" para crear la rama en la que he realizado los cambios,
 volver a main y mergear los cambios en main y poder subirlos con "git push". A lo largo de
 la ejecución me he ayudado de otros comandos como "git status" "ls" o el propio "git reftlog"
 
