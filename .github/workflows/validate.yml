@@ -1,4 +1,4 @@
-name: Shellcheck-on-push
+pname: Shellcheck-on-push
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
         uses: ludeeus/action-shellcheck@master
         continue-on-error: false
         with:
-          severity: style
+          severity: error
           ignore_paths: >-
             ignoreme
             ignoremetoo
