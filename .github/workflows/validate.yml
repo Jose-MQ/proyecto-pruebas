@@ -24,7 +24,8 @@ jobs:
         uses: ludeeus/action-shellcheck@master
         continue-on-error: false
         with:
-          severity: error
+          severity:
+            style
           ignore_paths: >-
             ignoreme
             ignoremetoo
