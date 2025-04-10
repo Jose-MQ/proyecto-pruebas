@@ -1,4 +1,5 @@
 #!/bin/bash
+# shellcheck disable=SC2086
 DIR="/home/jose/onboarding-devops/sprint2/proyecto-pruebas/images/*"
 
 rm -r $DIR
