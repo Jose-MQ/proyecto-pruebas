@@ -29,10 +29,3 @@ jobs:
             ignoremetoo
           ignore_names: ignore.sh
           format: json
-
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: run shellcheck
-          commit_user_name: Jose-MQ [Github Actions]
-          commit_author: Jose
