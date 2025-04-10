@@ -34,5 +34,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: run shellcheck
-          commit_username: Jose-MQ [Github Actions]
+          commit_user_name: Jose-MQ [Github Actions]
           commit_author: Jose
