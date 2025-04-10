@@ -26,6 +26,7 @@ jobs:
         with:
           severity:
             style
+            warning
           ignore_paths: >-
             ignoreme
             ignoremetoo
